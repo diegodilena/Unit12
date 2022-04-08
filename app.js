@@ -1,6 +1,6 @@
 let userNum = document.getElementById("getNumber");
 userNum.addEventListener("keydown", function (e) {
-    if (e.keycode == 13) {
+    if (e.keyCode == 13) {
         run(e);
     }
 });
